@@ -1,0 +1,1 @@
+#插件依赖于laravel-admin
