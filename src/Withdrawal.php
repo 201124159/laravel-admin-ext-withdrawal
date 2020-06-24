@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin;
+namespace Tutu\Withdrawal;
 
 use Encore\Admin\Admin;
 use Encore\Admin\Extension;
@@ -40,7 +40,7 @@ class Withdrawal extends Extension
     {
         parent::routes(function ($router) {
             /* @var \Illuminate\Routing\Router $router */
-            $router->get('withdrawal','Encore\Admin\Controller\Withdrawal\IndexController@index');
+            $router->get('withdrawal','Tutu\Withdrawal\Functionlist\AdminIndex@index');
         });
     }
 

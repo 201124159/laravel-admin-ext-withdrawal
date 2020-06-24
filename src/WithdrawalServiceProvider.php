@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin;
+namespace Tutu\Withdrawal;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -15,6 +15,6 @@ class WithdrawalServiceProvider extends ServiceProvider
             $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
         }
 
-        Withdrawal::boot();
+        withdrawal::boot();
     }
 }

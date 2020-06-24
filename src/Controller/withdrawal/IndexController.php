@@ -1,5 +1,5 @@
 <?php
-namespace Encore\Admin\Controller\Withdrawal;
+namespace Tutu\Withdrawal\Controller\Withdrawal;
 
 use Encore\Admin\Layout\Content;
 class IndexController

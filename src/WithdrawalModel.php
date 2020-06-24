@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin;
+namespace Tutu\Withdrawal;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
