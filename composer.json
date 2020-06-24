@@ -22,13 +22,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Tutu\\Withdrawal\\": "src/"
+            "Encore\\Admin\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Tutu\\Withdrawal\\WithdrawalServiceProvider"
+                "Encore\\Admin\\WithdrawalServiceProvider"
             ]
         }
     }

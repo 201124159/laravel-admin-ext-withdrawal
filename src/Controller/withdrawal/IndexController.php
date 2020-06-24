@@ -1,8 +1,8 @@
 <?php
-namespace Tutu\Withdrawal\Functionlist;
+namespace Encore\Admin\Controller\Withdrawal;
 
 use Encore\Admin\Layout\Content;
-class AdminIndex
+class IndexController
 {
     public function index(Content $content)
     {

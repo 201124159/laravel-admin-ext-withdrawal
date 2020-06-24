@@ -1,6 +1,6 @@
 <?php
 
-namespace Tutu\Withdrawal;
+namespace Encore\Admin;
 
 use Encore\Admin\Controllers\HasResourceActions;
 use Encore\Admin\Facades\Admin;
